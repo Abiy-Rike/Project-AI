@@ -53,9 +53,7 @@ export default function PostCard({ post, index }: PostCardProps) {
         />
 
         <motion.a
-          href={post.link}
-          target="_blank"
-          rel="noopener noreferrer"
+          href={`/blog/${post.link.split('/').filter(Boolean).pop()}`}
           whileHover={{ x: 5 }}
           className="inline-flex items-center gap-2 text-blue-600 dark:text-blue-400 font-semibold hover:gap-3 transition-all duration-300"
         >
