@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { motion } from 'framer-motion';
-import { ArrowLeft, Clock, Calendar, Share2, Loader2 } from 'lucide-react';
+import { ArrowLeft, Clock, Calendar, Share2, Loader as Loader2 } from 'lucide-react';
 import Navigation from '@/components/Navigation';
 import InContentAd from '@/components/ads/InContentAd';
 import MobileStickyAd from '@/components/ads/MobileStickyAd';
